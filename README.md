@@ -1,2 +1,2 @@
 # ViSQL
-Visualizer for PostgreSQL based databases
+Visualizer for SQL databases (Currently a work in progress)
