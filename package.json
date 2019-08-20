@@ -4,7 +4,9 @@
   "description": "Visualize PostgreSQL based databases",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/wmagee03/ViSQL#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
     "react": "^16.9.0",
@@ -24,13 +27,15 @@
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
     "request": "^2.88.0",
-    "webpack": "^4.39.2",
-    "webpack-dev-server": "^3.8.0"
+    "webpack": "^4.39.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.1",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
