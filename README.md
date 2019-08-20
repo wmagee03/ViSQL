@@ -1,2 +1,2 @@
-# Postgre-ViSQL
+# ViSQL
 Visualizer for PostgreSQL based databases
