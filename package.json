@@ -24,6 +24,13 @@
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
     "request": "^2.88.0",
-    "webpack": "^4.39.2"
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6"
   }
 }
