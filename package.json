@@ -1,5 +1,5 @@
 {
-  "name": "postgre-visql",
+  "name": "ViSQL",
   "version": "1.0.0",
   "description": "Visualize PostgreSQL based databases",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wmagee03/Postgre-ViSQL.git"
+    "url": "https://github.com/wmagee03/ViSQL.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wmagee03/Postgre-ViSQL/issues"
+    "url": "https://github.com/wmagee03/ViSQL/issues"
   },
-  "homepage": "https://github.com/wmagee03/Postgre-ViSQL#readme",
+  "homepage": "https://github.com/wmagee03/ViSQL#readme",
   "dependencies": {
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
